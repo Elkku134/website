@@ -74,6 +74,19 @@ nav ul li a {
     color: #8a8a8a;
     font-size: 30px;
 }
+
+.info p a{
+    color: #8a8a8a;
+    transition: all 0.3s ease;
+}
+
+.info p a:hover {
+    color: #ffffff; /* Changes text color */
+    background-color: rgba(255, 251, 0, 0.308); /* Highlights the background */
+    text-decoration: underline; /* Underlines the text */
+    padding: 2px 4px; /* Adds some padding around the text */
+    border-radius: 4px; /* Adds a little rounding to the corners */
+}
 /*
 footer {
     background-color: rgba(0,0,0,0.5);
